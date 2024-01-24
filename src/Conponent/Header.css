@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+#nav{
+    background-color:darkorange;
+    color: black;
+}
+
+.badge{
+    cursor: pointer;
+    width: auto;
+    height: auto;
+}
+
+.image{
+    width: 60px;
+    height: 30px;
+}
+
+#cart{
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+}

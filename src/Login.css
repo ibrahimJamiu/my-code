@@ -1,0 +1,62 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #ece8e8;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h3,p{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  
+  #Label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  #Input {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    border-radius: 10%;
+  }
+  
+  button:hover {
+   background-color: orange;
+  }
+
+  h6{
+    margin-top: 15px !important;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .login-container {
+      width: 90%;
+    }
+  }
+    

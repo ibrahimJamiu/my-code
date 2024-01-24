@@ -1,0 +1,45 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.signup-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #ece8e8;
+  border-radius: 9px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+#btn {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: orange;
+}
+
+@media screen and (max-width: 600px) {
+  .signup-container {
+    width: 90%;
+  }
+}

@@ -1,0 +1,62 @@
+footer {
+    background: linear-gradient(to left, red, blue, orange, green);
+    margin-top: 10px;
+}
+
+footer:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer ul {
+    float: left;
+    padding: 0;
+    list-style-type: none;
+    color: #eee;
+    width: 23%;
+    margin-right: 2%;
+}
+
+footer li {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #eee;
+    text-decoration: none;
+}
+
+footer ul li img {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+footer a:hover {
+    color: blue;
+    background-color: #eee;
+}
+
+
+/* MEDIA Query */
+/* Tablets */
+@media screen and (max-width:768px) {
+    footer ul {
+        width: 48%;
+    }
+
+
+    footer ul li img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    footer ul {
+        width: 98%;
+        text-align: center;
+    }
+}
